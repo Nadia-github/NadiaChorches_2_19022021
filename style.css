@@ -1,5 +1,41 @@
+body{
+    font-size: 14px;
+}
 
 
- .fas{ 
+#block{
+    width: 80%;
+    margin:auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header li{
+    margin-right: 30px;
+}
+.fas{ 
      color :#0065FC; 
     } 
+
+.fa {
+    color:#F2F2F2;
+}
+.bleu{
+    width: 16px;
+    height: 16px;
+}
+
+
+
