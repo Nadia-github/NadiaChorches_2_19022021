@@ -1,41 +1,167 @@
+/*----MISE EN PAGE GLOBALE----*/
+
 body{
     font-size: 14px;
+    font-family: 'Raleway', sans-serif;
 }
-
-
 #block{
-    width: 80%;
-    margin:auto;
+    margin: auto;
+    padding: 20px 30px 20px 30px;
+    width: 70%;
+    color: black;
 }
+a{
+    text-decoration: none;
+    color: black
+}
+.fas{ 
+    color :#0065FC; 
+   } 
+
+.fa {
+   color:#F2F2F2;
+}
+h2{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+h3{
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+
+/*-----HEADER-----*/
 
 header{
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
 }
-
-header ul{
+#inscription{
+        font-weight: bold;
+}
+#inscription a{
+        color: #0065FC;
+}
+#logo{
+    width: 70px;
+}
+nav ul{
     display: flex;
     list-style-type: none;
 }
-
-a{
-    text-decoration: none;
-}
-
-header li{
+nav li{
     margin-right: 30px;
 }
-.fas{ 
-     color :#0065FC; 
-    } 
+#menu_herbergement a{
+    color: #0065FC;
+}
 
-.fa {
-    color:#F2F2F2;
+/*TITRE PRINCIPAL, BARRE DE RECHERCHE, FILTRES et INFO*/
+
+#introduction h1{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#formulaire{
+    position: relative;
+    bottom:10px;
+    display: flex;
+    align-items: baseline;
+}
+#localisation{
+    background-color: #F2F2F2;
+    width: 11px;
+    padding: 15px 14px 15px 14px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#ville{
+    position: relative;
+    bottom: 17px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    border :1px solid #F2F2F2;
+}
+#bouton_rechercher{
+    position: relative;
+    bottom: 17px;
+    right: 4px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    color : white;
+    background-color:#0065FC;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#liste_filtres{
+    position: relative;
+    bottom:10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+}
+#money, #family, #love, #pets{
+    position: relative;
+    display: flex;
+    border:2px solid #F2F2F2;
+    border-radius:25px;
+    line-height:0.4em;
+    padding: 0px 20px 0px 40px;
+}
+#money:hover, #family:hover, #love:hover, #pets:hover{
+    background-color: rgb(242, 247, 255);
+    box-shadow: 0px 0px 9px grey;
+    font-weight: bold;
+    color:white;
 }
 .bleu{
+    position: absolute;
+    left:-2px;
+    bottom: -2px;
     width: 16px;
     height: 16px;
+    border-radius: 20px;
+    padding:10px;
+    background-color: #DEEBFF;
+ }
+#liste_filtres h2{
+     font-size: 1.1em;
+ }
+
+ #information{
+     display: flex;
+ }
+#icon_info{
+    margin-right: 10px;
 }
 
+/* ------  SECTION 1------*/
 
-
+#section_1{
+    display: flex;
+    justify-content: space-between;
+}
+#hebergement{
+    background-color: #F2F2F2;
+    width: 60%;
+    border-radius: 5px;
+    padding:10px 25px 10px 25px;
+}
+#ligne1_hebergement{
+    display: flex;
+    justify-content: space-between;
+}
+#ligne2_hebergement{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    background-color: #F2F2F2;
+    width: 25%;
+    border-radius: 5px;
+    padding:10px 25px 25px 25px;
+}
