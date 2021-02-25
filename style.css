@@ -1,7 +1,7 @@
 /*----MISE EN PAGE GLOBALE----*/
 
 body{
-    font-size: 14px;
+    font-size: 11px;
     font-family: 'Raleway', sans-serif;
 }
 #block{
@@ -15,14 +15,15 @@ a{
     color: black
 }
 .fas{ 
-    color :#0065FC; 
+    color :#0065FC;
+    font-size: 9px;
    } 
 
 .fa {
    color:#F2F2F2;
 }
 h2{
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bolder;
 }
 h3{
@@ -30,6 +31,9 @@ h3{
     font-weight: bolder;
 }
 
+#section_1 p{
+    font-size: 10px;
+}
 
 /*-----HEADER-----*/
 
@@ -101,18 +105,20 @@ nav li{
     position: relative;
     bottom:10px;
     display: flex;
-    justify-content:space-between;
+    align-items: center;
+    justify-content:left;
     align-items: baseline;
 }
-#money, #family, #love, #pets{
+.mes_filtres{
     position: relative;
     display: flex;
+    margin-left: 20px;
     border:2px solid #F2F2F2;
     border-radius:25px;
     line-height:0.4em;
-    padding: 0px 20px 0px 40px;
+    padding: 2px 20px 2px 40px;
 }
-#money:hover, #family:hover, #love:hover, #pets:hover{
+.mes_filtres:hover{
     background-color: rgb(242, 247, 255);
     box-shadow: 0px 0px 9px grey;
     font-weight: bold;
@@ -147,7 +153,7 @@ nav li{
 }
 #hebergement{
     background-color: #F2F2F2;
-    width: 60%;
+    width: 65%;
     border-radius: 5px;
     padding:10px 25px 10px 25px;
 }
@@ -157,11 +163,73 @@ nav li{
 }
 #ligne2_hebergement{
     display: flex;
+    margin-top: 25px;
     justify-content: space-between;
 }
 aside{
     background-color: #F2F2F2;
-    width: 25%;
-    border-radius: 5px;
+    width: 20%;
+    border-radius: 7px;
     padding:10px 25px 25px 25px;
+}
+figure{
+    position: relative;
+    width: 165px;
+    height: 140px;
+    margin: auto;
+    
+}
+.img_figure_section1{
+    border-radius: 10px;
+    border: 3px solid white;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    /* A VERIFIER box-shadow: 0px 3px 3px gray; */
+}
+.figcaption_section1{
+    position: absolute;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    line-height: 5px;
+    bottom: 0px;
+    left: 0px;
+    width: 99%;
+    padding: 0px 0px 8px 8px;
+}
+#afficher_plus{
+    font-size: 1.2em;
+}
+
+
+/* ------  SECTION 2------*/
+
+#image_activite{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* ------  FOOTER------*/
+
+footer{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    background-color: #F2F2F2;
+    padding:10px 25px 10px 25px;
+}
+footer h3{
+    font-size: 1em;
+}
+.elements_footer{
+    position: relative;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+footer h3, footer p{
+    display: inline-block;
+    margin-right: 100px;
+    line-height: 0px;
 }
