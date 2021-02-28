@@ -11,7 +11,7 @@ body{
 }
 #block{
     margin: 0px 0px;
-    padding: 20px 30px 20px 30px;
+    padding: 0px 30px 20px 30px;
     color: black;
     background-color: white;
 }
@@ -59,19 +59,26 @@ header{
     width: 95px;
 }
 nav a{
-    width: 110px;
+    width: 150px;
+    height: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 nav ul{
     display: flex;
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 nav li{
     margin-right: 30px;
+    text-align: center;
+    align-items: center;
 }
 #menu_herbergement a{
     color: #0065FC;
+    border-top : 3px solid #0065FC;
 }
 
 
