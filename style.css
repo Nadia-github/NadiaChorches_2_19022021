@@ -247,7 +247,7 @@ nav li{
 #afficher_plus{
     position: absolute;
     left: 25px;
-    bottom: 30px;
+    bottom: 10px;
     font-size: 1.2em;
     margin-top: 10px;
 }
@@ -428,10 +428,10 @@ footer h3, footer p{
 /*---------------------------------------------------------------------------------------------------------------*/
 
 
-/* ------------------------------------//--AJUSTEMENTS TABLETTE jusqu'à 995px--//---------------------------------------*/
+/* ------------------------------------//--AJUSTEMENTS TABLETTE jusqu'à 1000px--//---------------------------------------*/
 
 
-@media screen and (max-width: 995px){
+@media screen and (max-width: 1000px){
     body{
         font-size: 15px;
         position: relative;
