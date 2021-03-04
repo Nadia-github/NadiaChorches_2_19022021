@@ -343,14 +343,22 @@ aside p{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.activite_solo, .image_activite_mini{
+    position: relative;
+}
 .description_activites{
-    height: 30px;
+    justify-content: center;
+    height: 35px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
     background-color: white;
     padding: 5px 15px 25px 15px;
     align-items: center;
+}
+.activite_solo .description_activites{
+    position: relative;
+    bottom: 4px;
 }
 
 /*Boxs placement*/
@@ -382,7 +390,7 @@ aside p{
 /*Dimensionnement des images*/
 /*Grandes images*/
 .box1 img, .box4 img{  
-    height: 350px;
+    height: 360px;
     width: 100%;
 }
 /*Petites images*/
@@ -729,6 +737,10 @@ footer h3, footer p{
         height: 45px;
         padding: 5px 15px 25px 15px;
     }
+    .activite_solo .description_activites{
+        top: 4px;
+    }
+    
 
     /*---FOOTER---*/
     footer{
