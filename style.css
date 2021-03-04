@@ -428,10 +428,10 @@ footer h3, footer p{
 /*---------------------------------------------------------------------------------------------------------------*/
 
 
-/* ------------------------------------//--AJUSTEMENTS TABLETTE jusqu'à 992px--//---------------------------------------*/
+/* ------------------------------------//--AJUSTEMENTS TABLETTE jusqu'à 995px--//---------------------------------------*/
 
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 995px){
     body{
         font-size: 15px;
         position: relative;
@@ -633,7 +633,6 @@ footer h3, footer p{
     }
     .description_activites{
         height: 45px;
-        background-color: white;
         padding: 5px 15px 25px 15px;
     }
     .image_activite_mini, .activite_solo{
@@ -725,6 +724,10 @@ footer h3, footer p{
     }
     .image_activite_mini, .activite_solo{
         margin-bottom: 30px;
+    }
+    .description_activites{
+        height: 45px;
+        padding: 5px 15px 25px 15px;
     }
 
     /*---FOOTER---*/
