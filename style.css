@@ -666,7 +666,7 @@ footer h3, footer p{
     }
 /*---TITRE PRINCIPAL, BARRE DE RECHERCHE, FILTRES et INFO---*/
     h1{
-        font-size: 1.3em;
+        line-height: 30px;
     }
     #ville{
         width: 60%;
