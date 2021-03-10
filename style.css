@@ -852,3 +852,42 @@ footer h3, footer p{
             line-height: 12px;
     }
 }
+
+/* ---------------------------------------//--AJUSTEMENTS FOOTER--//-----------------------------------------*/
+
+@media screen and (min-width: 1350px){
+    footer{
+        padding-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1450px){
+    footer{
+        padding-left: 100px;
+    }
+}
+
+@media screen and (min-width: 1550px){
+    footer{
+        padding-left: 150px;
+    }
+}
+
+@media screen and (min-width: 1650px){
+    footer{
+        padding-left: 200px;
+    }
+}
+
+
+@media screen and (min-width: 1750px){
+    footer{
+        padding-left: 250px;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    footer{
+        padding-left: 300px;
+    }
+}
