@@ -8,8 +8,9 @@
 body{
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
-    margin: 0px 0px;
-    width:  100%;
+    margin: 0px auto;
+    width:  auto;
+    max-width: 1280px;
     box-sizing: border-box;
 }
 
@@ -853,41 +854,3 @@ footer h3, footer p{
     }
 }
 
-/* ---------------------------------------//--AJUSTEMENTS FOOTER--//-----------------------------------------*/
-
-@media screen and (min-width: 1350px){
-    footer{
-        padding-left: 50px;
-    }
-}
-
-@media screen and (min-width: 1450px){
-    footer{
-        padding-left: 100px;
-    }
-}
-
-@media screen and (min-width: 1550px){
-    footer{
-        padding-left: 150px;
-    }
-}
-
-@media screen and (min-width: 1650px){
-    footer{
-        padding-left: 200px;
-    }
-}
-
-
-@media screen and (min-width: 1750px){
-    footer{
-        padding-left: 250px;
-    }
-}
-
-@media screen and (min-width: 1800px){
-    footer{
-        padding-left: 300px;
-    }
-}
