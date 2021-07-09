@@ -1,7 +1,7 @@
 
 <h1> Projet OC N°2 - Reservia | Parcours Développeur Web </h1>
 
-<p> Lien du site: https://nadia-github.github.io/NadiaChorches_2_19022021/ </p>
+<p> Lien du site: https://nadia-github.github.io/Reservia_Nadia/ </p>
 
 <p> <strong>Reservia</strong> est le second projet réalisé dans le cadre de ma formation de<strong> Développeur Web</strong>, dispensée par <strong>Openclassrooms</strong>.</p>
 
